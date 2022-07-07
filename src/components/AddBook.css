@@ -1,0 +1,18 @@
+.input-fields {
+  padding: 1.5rem;
+}
+
+.forms {
+  display: flex;
+  gap: 2rem;
+}
+
+input {
+  width: 40%;
+  padding: 0.4rem;
+}
+
+::placeholder {
+  font-size: 1rem;
+  color: #c4c4c4;
+}
