@@ -1,0 +1,15 @@
+.books-container {
+  border: 2px solid #e8e8e8;
+  padding: 2rem;
+}
+
+.book-type {
+  color: grey;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.book-author {
+  color: #4386bf;
+  font-size: 1.2rem;
+}
