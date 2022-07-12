@@ -4,7 +4,7 @@
 
 ## Built With
 
-- React
+- React & Redux
 
 ## Getting Started
 
