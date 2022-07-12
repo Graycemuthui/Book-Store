@@ -1,17 +1,7 @@
-export const ADD_BOOK = 'ADD_BOOK';
-export const REMOVE_BOOK = 'REMOVE_BOOK';
+export const ADD_BOOK = './books/ADD_BOOK';
+export const REMOVE_BOOK = './books/REMOVE_BOOK';
 
-export const initialState = {
-  books: [
-    {
-      id: 1,
-      genre: 'Action',
-      title: 'The One',
-      author: 'Jimmy Fitzimons',
-    },
-  ],
-};
-
+export const initialState = [];
 export default function booksReducer(state = initialState, action) {
   switch (action.type) {
     case ADD_BOOK:
@@ -19,17 +9,20 @@ export default function booksReducer(state = initialState, action) {
     case REMOVE_BOOK:
       return {
         ...state,
-        items: state.items.filter((item) => item.id !== action.id),
+        items: state.filter((item) => item.id !== action.id),
       };
     default:
       return state;
   }
 }
 
-export const addBook = () => ({
+export const addBook = (book) => ({
   type: ADD_BOOK,
+  book,
 });
 
-export const removeBook = () => ({
+export const removeBook = (book, id) => ({
   type: REMOVE_BOOK,
+  id,
+  book,
 });
