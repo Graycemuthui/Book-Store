@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
 import DisplayBooks from './components/Books';
-import AddBook from './components/AddBook';
-import Categories from './components/Categories';
+import Forms from './components/Form';
+import Categories from './pages/Categories';
 import Nav from './components/Nav';
 
 /* eslint-disable react/prop-types */
@@ -36,7 +36,7 @@ function App() {
           <Route path="/categories" element={<Categories />} />
         </Routes>
       </Router>
-      <AddBook />
+      <Forms />
     </div>
   );
 }

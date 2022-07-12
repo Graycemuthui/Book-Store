@@ -13,3 +13,7 @@
   color: #4386bf;
   font-size: 1.2rem;
 }
+
+.remove-btn {
+  border: none;
+}
