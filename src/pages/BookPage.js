@@ -1,21 +1,21 @@
-import React, { useState } from 'react';
-import Book from '../components/Books';
+import React from 'react';
+import { useSelector } from 'react-redux';
+import Book from '../components/Book';
 import Forms from '../components/Form';
 
 const Books = () => {
   // eslint-disable-next-line
-  const [books] = useState([
-    {
-      id: 1,
-      genre: 'Action',
-      title: 'The One',
-      author: 'Jimmy Fitzimons',
-    },
-  ]);
+  const books = useSelector((state) => state.books.books);
+
   return (
     <div>
       {books.map((book) => (
-        <Book key={book.title} title={book.title} author={book.author} />
+        <Book
+          key={book.id}
+          id={book.id}
+          title={book.title}
+          author={book.author}
+        />
       ))}
       <Forms />
     </div>
