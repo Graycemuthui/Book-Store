@@ -1,0 +1,47 @@
+.nav-bar {
+  background-image: url(../images/books.jpg);
+  background-position: 70%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+.heading:hover {
+  color: aqua;
+}
+
+.nav-list {
+  display: flex;
+  gap: 35px;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.nav-list li {
+  border: 2px solid rgb(137, 14, 14);
+  padding: 0.5rem;
+  background-color: black;
+}
+
+.nav-list li:hover {
+  background-color: bisque;
+}

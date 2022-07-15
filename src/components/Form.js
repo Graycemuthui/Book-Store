@@ -9,7 +9,7 @@ function Forms() {
   const [state, setState] = useState({
     title: '',
     author: '',
-    category: 'Horror',
+    category: 'Thriller',
   });
   const dispatch = useDispatch();
 
