@@ -17,12 +17,12 @@ const Books = () => {
       {Object.keys(books).map((bookId) => (
         <Book
           key={bookId}
+          category={books[bookId][0].category}
           title={books[bookId][0].title}
           author={books[bookId][0].author}
           id={bookId}
         />
       ))}
-
       <Forms />
     </div>
   );

@@ -1,0 +1,16 @@
+.heading {
+  font-size: 2rem;
+  margin: 1rem 2rem;
+  color: #0290ff;
+}
+
+.nav-list {
+  display: flex;
+  gap: 35px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
