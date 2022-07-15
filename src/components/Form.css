@@ -1,9 +1,5 @@
 .input-fields {
   padding: 1.5rem;
-  background-image: url(../images/bookform.jpg);
-  background-size: 100%;
-  object-fit: cover;
-  background-repeat: no-repeat;
 }
 
 .forms {

@@ -4,13 +4,12 @@ import './Nav.css';
 function Nav() {
   return (
     <nav className="nav-bar">
-      <h1 className="heading">SAWASAWA BOOKSTORE</h1>
       <ul className="nav-list">
         <li className="active-link">
-          <Link to="/books">Books</Link>
+          <Link to="/books">BOOKS</Link>
         </li>
         <li className="active-link">
-          <Link to="/categories">Categories</Link>
+          <Link to="/categories">CATEGORIES</Link>
         </li>
       </ul>
     </nav>

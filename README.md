@@ -52,8 +52,6 @@ $npm start
 ## Acknowledgements
 
 - The React Library.
-- Background image by Ricardo Esquivel in [pexels](https://www.pexels.com/photo/books-filed-neatly-on-shelves-1907785/)
-- Background image by Julien Bachelet in [pexels](https://www.pexels.com/photo/digital-clock-at-7-34-pm-890849/)
 
 ## 📝 License
 

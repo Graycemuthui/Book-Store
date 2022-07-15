@@ -3,7 +3,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import Book from '../components/Book';
 import Forms from '../components/Form';
 import { fetchBooks } from '../redux/books/Books';
-import './Bookpage.css';
 
 const Books = () => {
   // eslint-disable-next-line
