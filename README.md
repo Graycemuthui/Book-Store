@@ -1,6 +1,6 @@
 ### Book Store
 
-- This is a Microverse project that entails a bookstore built with React and Redux. It enables a user to add, edit and remove books and also track the progress of their reading.
+- This is a project that entails a bookstore built with React and Redux. It enables a user to add, edit and remove books and also track the progress of their reading.
 
 ## Built With
 
